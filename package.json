@@ -1,0 +1,49 @@
+{
+    "name": "3d-headphones-configurator",
+    "version": "1.0.0",
+    "description": "3D Headphones Configurator with Three.js",
+    "author": "osorina <official.osorina@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/osorina/3D-headphones"
+    },
+    "keywords": [
+        "3d nuxt",
+        "configurator",
+        "3d configurator",
+        "3d configurator nuxt",
+        "nuxt",
+        "vuetify",
+        "threejs"
+    ],
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+        "precommit": "npm run lint"
+    },
+    "dependencies": {
+        "@nuxtjs/vuetify": "^1.11.2",
+        "nuxt": "^2.0.0",
+        "three": "^0.116.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "babel-eslint": "^10.1.0",
+        "cross-env": "^7.0.2",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-loader": "^2.1.1",
+        "eslint-plugin-html": "^6.0.2",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "nuxt-compress": "^1.1.0",
+        "push-dir": "^0.4.1"
+    }
+}
