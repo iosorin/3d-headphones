@@ -1,0 +1,35 @@
+body, html {
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+:focus {
+    outline:none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.scene {
+    cursor: grab;
+
+    &:active {
+        cursor: grabbing;
+    }
+}
+
+.coverdiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.options {
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    left: 14px;
+    right: 14px;
+}
