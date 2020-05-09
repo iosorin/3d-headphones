@@ -2,7 +2,7 @@
 
 3D Headphones Configurator with THREE.js.
 
-Medium tutorial: https://medium.com/p/3c5c95b5b8d9/
+Medium tutorial: https://medium.com/p/6d40da0209e0/
 
 Contains customizable colors for different areas of the model.
 
