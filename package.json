@@ -28,7 +28,7 @@
     },
     "dependencies": {
         "@nuxtjs/vuetify": "^1.11.2",
-        "nuxt": "^2.0.0",
+        "nuxt": "^2.12.2",
         "three": "^0.116.1"
     },
     "devDependencies": {
