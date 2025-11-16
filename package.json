@@ -28,14 +28,14 @@
     },
     "dependencies": {
         "@nuxtjs/vuetify": "^1.11.2",
-        "nuxt": "^2.0.0",
+        "nuxt": "^2.18.1",
         "three": "^0.116.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.8.4",
         "babel-eslint": "^10.1.0",
         "cross-env": "^7.0.2",
-        "eslint": "^6.8.0",
+        "eslint": "^9.39.1",
         "eslint-config-airbnb": "^18.1.0",
         "eslint-friendly-formatter": "^4.0.1",
         "eslint-import-resolver-alias": "^1.1.2",
